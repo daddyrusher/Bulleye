@@ -103,7 +103,7 @@ struct ContentView: View {
                     self.startNewGame()
                 }) {
                     HStack {
-                        Image("StartOverIcon")
+                    Image("StartOverIcon")
                     Text("Startover").modifier(ButtonSmallTextStyle())
                     }
                 }
